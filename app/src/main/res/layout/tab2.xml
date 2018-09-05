@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Choose Patient Email"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/header"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:textColorLink="@android:color/holo_red_dark" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/spinner2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:layout_marginBottom="20dp"
+
+        >
+
+
+        <TextView
+            android:text="Status"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_article"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textStyle="normal|bold"
+            android:textSize="26dp"
+            />
+
+        <TextView
+            android:text="viewStatus"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_article"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textStyle="normal|bold"
+            android:textSize="26dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:text="Intelligent Suggestions :"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView18"
+        android:paddingLeft="90dp"
+        android:paddingTop="27dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="normal|bold|italic"
+        android:background="@drawable/sendchat"
+        android:textSize="22dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:id="@+id/last_article"
+        android:layout_margin="10dp"
+        android:textSize="26dp"
+        android:textColor="@android:color/black"
+
+        android:textStyle="normal|bold|italic"
+        android:textColorLink="?attr/actionModeSplitBackground"
+        android:layout_gravity="center_vertical|fill_vertical|center_horizontal|fill_horizontal|center"
+        />
+
+
+</LinearLayout>

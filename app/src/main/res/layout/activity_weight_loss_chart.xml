@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        tools:context="com.example.root.fitnessapp.WeightLossChart">
+
+
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:text="Choose Patient Email "
+            android:layout_width="wrap_content"
+
+            android:layout_height="63dp"
+            android:id="@+id/top_center"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:textStyle="normal|bold|italic"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner6" />
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+
+          <TextView
+              android:text="Start Weight"
+              android:layout_width="50dp"
+              android:layout_height="wrap_content"
+              android:id="@+id/un"
+              android:textColor="@android:color/black"
+              android:layout_weight="1" />
+
+          <EditText
+              android:layout_width="15dp"
+              android:layout_height="wrap_content"
+              android:inputType="number"
+              android:ems="10"
+              android:textColor="@android:color/holo_red_dark"
+              android:id="@+id/start_weight"
+              android:layout_weight="1" />
+
+
+          <TextView
+              android:text="Goal Weight"
+              android:layout_width="45dp"
+              android:layout_height="wrap_content"
+              android:id="@+id/deux"
+              android:textColor="@android:color/black"
+
+              android:layout_weight="1" />
+
+          <EditText
+              android:layout_width="15dp"
+              android:layout_height="wrap_content"
+              android:inputType="number"
+              android:ems="10"
+              android:textColor="@android:color/holo_red_dark"
+
+              android:id="@+id/goalWeight"
+              android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:text="Start Date"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/trois"
+                android:textColor="@android:color/black"
+
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textColor="@android:color/holo_red_dark"
+
+                android:id="@+id/starting"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:text="Goal Date"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+
+                android:id="@+id/quater" />
+
+            <EditText
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textColor="@android:color/holo_red_dark"
+
+                android:id="@+id/ending"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Height"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/cinq"
+                android:textColor="@android:color/black"
+
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/height"
+                android:textColor="@android:color/holo_red_dark"
+
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:text="Start BMI"
+                android:textColor="@android:color/black"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sept"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/bmi_data_start"
+                android:textColor="@android:color/holo_red_dark"
+
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Goal BMI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/neuf"
+                android:textColor="@android:color/black"
+
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="30dp"
+
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textColor="@android:color/holo_red_dark"
+
+                android:id="@+id/bmi_data_goal"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:id="@+id/info"
+          android:textSize="24sp"
+          android:textStyle="normal|bold"
+          android:textColor="@color/colorPrimary" />
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1"
+        android:id="@+id/table_view"
+        >
+
+
+    </TableLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <com.jjoe64.graphview.GraphView
+              android:layout_width="match_parent"
+              android:layout_height="400dp"
+              android:id="@+id/graph1" />
+
+
+      </LinearLayout>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:id="@+id/clear"
+          android:text="clear Graph"
+          android:textSize="20dp"
+          android:textColor="@android:color/holo_red_dark"
+          />
+     <TextView
+
+         android:layout_width="match_parent"
+         android:layout_height="20dp"
+         android:text="Intelligent Suggestion"
+
+         android:textStyle="normal|bold|italic"
+         android:paddingLeft="115dp" />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="130dp"
+          android:id="@+id/infoo"
+          android:textSize="24sp"
+          android:textStyle="normal|bold"
+          android:textColor="@color/colorPrimary" />
+
+
+
+
+</LinearLayout>
+    </ScrollView>

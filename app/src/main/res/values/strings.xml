@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="weight">
+        <item>kg</item>
+        <item>pounds</item>
+    </string-array>
+    <string-array name="height">
+        <item>m</item>
+        <item>cm</item>
+    </string-array>
+    <string-array name="users">
+        <item>Physician</item>
+        <item>Patient</item>
+        <item>Nutritionist</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="hello">Hello World, FileChooser!</string>
+    <string name="folder">Folder</string>
+    <string name="parentDirectory">Parent Directory</string>
+    <string name="fileSize">File Size</string>
+    <string name="currentDir">Current Dir</string>
+</resources>

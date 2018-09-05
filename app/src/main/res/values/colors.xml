@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorCalories">#33ff00</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="sever">#f45041</color>
+    <color name="moderate">#f49441</color>
+    <color name="mild">#f4f141</color>
+    <color name="normal">#9df441</color>
+    <color name="overweight">#41f452</color>
+    <color name="obese_i">#41f4d9</color>
+    <color name="obese_ii">#41a3f4</color>
+    <color name="obese_iii">#4155f4</color>
+    <color name="male_color">#7aef95</color>
+    <color name="female_color">#e5b3c8</color>
+    <color name="image_button_color">#770000ff</color>
+    <color name="transparent_button_color">#00000000</color>
+</resources>

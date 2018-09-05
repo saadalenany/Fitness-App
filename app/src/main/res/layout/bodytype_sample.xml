@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/severe_thinness"
+            android:background="#f45041" />
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/moderate_thinness"
+            android:background="#f49441" />
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/mild_thinness"
+            android:background="#f4f141" />
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/normal"
+            android:background="#9df441" />
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/overweight"
+            android:background="#41f452" />
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/obese_i"
+            android:background="#41f4d9" />
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/obese_ii"
+            android:background="#41a3f4" />
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/obese_iii"
+            android:background="#4155f4" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_settings"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/body_typetext"/>
+
+</LinearLayout>

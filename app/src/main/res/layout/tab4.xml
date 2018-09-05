@@ -1,0 +1,48 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    tools:context="com.example.root.fitnessapp.Tab4Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Did you know that the longer you chew your food, the greater the amount of calories you absorb?"
+        android:textColor="@android:color/black"
+        android:id="@+id/text1"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="24dp" />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Foods that take more effort to chew (e.g., fruit, vegetables, lean meats, and whole grains) make your body burn more calories. More calories are required to digest them and they'll keep you feeling satisfied longer.  Some other foods increase calorie burn: coffee and tea, for example, not only for the caffeine in them, but also for other ingredients they have.  Certain spices like chilies, cinnamon, and ginger do help to burn calories. Scientists have recently discovered that there is a difference in terms of gaining or losing weight in the quality of the calories you consume, not just the quantity. There is an actual difference in consuming 500 calories of carrots from 500 calories of popcorn--although you should be consuming the same amount of energy, the popcorn makes you fatter just the same. It turns out that a healthy diet, irrespective of quantities, will keep you thinner. The best thing is to eat at least five different fruits and vegetables with each meal. The process of converting these hard-to-chew foods into energy will have a healthy effect."
+            android:textSize="24dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/text2" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

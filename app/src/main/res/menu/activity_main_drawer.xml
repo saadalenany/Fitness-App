@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Profile" />
+        <item
+            android:id="@+id/calculate_data"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="BMI Calculator" />
+        <item
+            android:id="@+id/social_network_data"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Calories Intake/Consumed" />
+        <item
+            android:id="@+id/graph"
+            android:icon="@drawable/ic_graphic_eq_black_24dp"
+            android:title="control unit"/>
+        <item
+            android:id="@+id/tabs"
+            android:icon="@drawable/sensor"
+            android:title="Weight Loss Chart"/>
+        <item
+            android:id="@+id/message_doctor"
+            android:icon="@drawable/chatphysician"
+            android:title="Chat with Physician" />
+        <item
+            android:id="@+id/message_neutrulist"
+            android:icon="@drawable/chatnuttrionist"
+            android:title="Chat with Nutritionist" />
+        <item
+            android:id="@+id/upload_sensoryFile"
+            android:icon="@drawable/charticon"
+            android:title="Record ECG Data" />
+        <item
+            android:id="@+id/patient_activities"
+            android:icon="@drawable/activity"
+            android:title="Physical Activities" />
+        <item
+            android:id="@+id/community"
+            android:icon="@drawable/comment"
+            android:title="Social Community"/>
+    </group>
+
+</menu>

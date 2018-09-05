@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:text="Name"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patientName"/>
+
+        <TextView
+            android:text="status"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patientStatus"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/patientgender"
+            android:layout_width="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:text="gender"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/patientage"
+            android:layout_width="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:text="age"/>
+    </LinearLayout>
+    <ImageButton
+        android:src="@drawable/notepad"
+        android:background="#00FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/patient_history"/>
+    <ImageButton
+        android:src="@drawable/thumb"
+        android:background="#00FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/patient_chat"/>
+
+</LinearLayout>
